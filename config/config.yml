@@ -1,0 +1,30 @@
+SqlUserName: "root"
+SqlPassword: "123456"
+DataBase: "videoWebsite"
+MysqlIP: "127.0.0.1:3306"
+#"192.168.102.126"
+RabbitmqUserName: "guest"
+RabbitmqPassword: "guest"
+RabbitmqIP: "127.0.0.1:5672"
+#RabbitmqIP: "192.168.239.126:5672"
+ExchangeName: "direct"
+
+RedisAddr: "127.0.0.1:6379"
+RedisPassword:
+RedisDB: 0
+
+
+EndPoint: "127.0.0.1:9000"
+AccessKeyID: "minioadmin"
+SecretAccessKey: "minioadmin"
+SSL: false
+BucketName: "videoweb"
+
+etcd:
+  addr: "127.0.0.1:2379"
+
+jaeger:
+  addr: "127.0.0.1:6831"
+
+milvus:
+  addr: "127.0.0.1:19530"

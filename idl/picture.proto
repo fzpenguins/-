@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package picturetovector;
+
+option go_package  = "../proto";
+service PictureConService {
+  rpc GetImageVector (ImageRequest) returns (VectorResponse);
+}
+
+message ImageRequest {
+  bytes image = 1;
+}
+
+
+message VectorResponse {
+  repeated float vector = 1;
+}
